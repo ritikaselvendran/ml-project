@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - Lung Cancer Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/analysis">Analysis</a></li>
+            <li><a href="/predict">Predict</a></li>
+        </ul>
+    </nav>
+    <p>The predicted lung cancer level is: <strong>{{ level }}</strong></p>
+</body>
+</html>
